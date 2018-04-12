@@ -22,8 +22,3 @@ name PRJEB15199
 label PRJEB15199: HCMV Paired-End mRNA-Seq (2016)
 priority 5
 defaultIsClosed 0
-
-name PRJEB2543
-label PRJEB2543: HCMV Transcriptome (2011)
-priority 6
-defaultIsClosed 0
