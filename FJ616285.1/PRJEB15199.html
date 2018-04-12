@@ -1,0 +1,48 @@
+<h2>Description</h2>
+<p>
+In 2016, Ellen Van Damme and others published <em>HCMV Displays a Unique Transcriptome of Immunomodulatory Genes in Primary Monocyte-Derived Cell Types,</em> a manuscript that compared paired-end mRNA sequencing data obtained from TB40/E-infected macrophages, dendritic cells, and fibroblasts. Here, we realign their fibroblast paired-end sequencing data to <a
+href="https://www.ncbi.nlm.nih.gov/nuccore/FJ616285.1" target="_blank">HCMV strain Towne</a> to enable comparison with other datasets.
+</p>
+
+<h2>Methods</h2>
+<p>
+The original manuscript contains detailed protocols. In brief, neonatal foreskin fibroblasts (Lonza, CC-2509, NHDF-Neo-Der) were harvested 72 hours after a 3 hour infection with HCMV strain TB40/E. PolyA-selected mRNAs were sequenced using the Illumina TruSeq Stranded mRNA Library Prep kit. Paired-end sequencing data was minimally processed as follows: 
+<ul>
+<h3>Download fastq files</h3>
+Paired-end fastq.gz files were downloaded for each sample from ENA <a
+href="https://www.ebi.ac.uk/ena/data/view/PRJEB15199" target="_blank">PRJEB15199</a>.
+<h3>Adapter and polyA trimming</h3>
+<a
+href="https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/" target="_blank">Trim Galore!</a> was run in paired-end mode twice: once to eliminate Illumina sequencing adapters, and once to eliminate "--adapter AAAAAAAAAAAAAAAAAAAA". Reads were not filtered based on quality ("--quality 0").
+<h3>Alignment to HCMV strain Towne</h3>
+<a
+href="https://ccb.jhu.edu/software/hisat2/index.shtml" target="_blank">HISAT2</a> was used to align adapter- and polyA-trimmed paired-end reads to <a
+href="https://www.ncbi.nlm.nih.gov/nuccore/FJ616285.1" target="_blank">HCMV strain Towne</a> using "--rna-strandness RF --no-mixed --no-discordant" settings. Replicates were combined.
+<h3>Track generation</h3>
+<a
+href="http://www.htslib.org/" target="_blank">Samtools</a>, <a
+href="http://bedtools.readthedocs.io/en/latest/" target="_blank">bedtools</a>, and <a
+href="http://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/" target="_blank">bedGraphToBigWig</a> were used to process aligned SAM files into strand-specific bigWig pileup tracks. The following commands were used:</br></br>
+samtools view -S -u -f 83 FILE.sam | samtools sort -l 0 > FILE-83.bam;\</br>
+samtools view -S -u -f 163 FILE.sam | samtools sort -l 0 > FILE-163.bam;\</br>
+samtools merge -u FILE-FW.bam FILE-83.bam FILE-163.bam;\</br>
+samtools view -S -u -f 99 FILE.sam | samtools sort -l 0 > FILE-99.bam;\</br>
+samtools view -S -u -f 147 FILE.sam | samtools sort -l 0 > FILE-147.bam;\</br>
+samtools merge -u FILE-RV.bam FILE-99.bam FILE-147.bam;\</br>
+bedtools genomecov -ibam FILE-FW.bam -split -bg > FILE-FW.bdg;\</br>
+bedtools genomecov -ibam FILE-RV.bam -split -bg > FILE-RV.bdg;\</br>
+bedGraphToBigWig FILE-FW.bdg FJ616285.1.chrom.sizes FILE-FW.bw;\</br>
+bedGraphToBigWig FILE-RV.bdg FJ616285.1.chrom.sizes FILE-RV.bw</br>
+<h3>Notes</h3>
+We made no attempt to normalize or otherwise quantify differences between these tracks. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4439430/" target="_blank">Differences between HCMV strains</a> should be considered when interpreting these datasets.
+</p>
+</ul>
+
+<h2>References</h2>
+<p>
+Van Damme E, Thys K, Tuefferd M, Van Hove C, Aerssens J, Van Loock M. <em>HCMV Displays a Unique Transcriptome of Immunomodulatory Genes in Primary Monocyte-Derived Cell Types.</em> PLoS One. 2016 Oct 19;11(10):e0164843.
+PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27760232" target="_blank">27760232</a>; DOI: <a
+href="http://dx.doi.org/10.1371/journal.pone.0164843" target="_blank">10.1371/journal.pone.0164843</a>; ENA: <a
+href="https://www.ebi.ac.uk/ena/data/view/PRJEB15199" target="_blank">PRJEB15199</a>
+</p>
+
