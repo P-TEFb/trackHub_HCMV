@@ -1,6 +1,6 @@
-hub hubCMV
+hub HCMV
 shortLabel FJ616285.1
-longLabel A compilation of global HCMV data
+longLabel A selection of new and existing HCMV datasets aligned to FJ616285.1
 genomesFile genomes.txt
-email kyle-nilson@uiowa.edu
+email david-price@uiowa.edu
 descriptionUrl https://www.ncbi.nlm.nih.gov/nuccore/FJ616285.1 
