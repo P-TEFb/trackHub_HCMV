@@ -11,7 +11,7 @@ This is a curated selection of existing and new HCMV datasets for viewing in the
 
 You should now be able to select the FJ616285.1 genome and view these tracks!
 
-## Documentation:
+## About Track Hubs:
 
 Track hubs are collections of experimental data, annotations, and a reference genome assembled in a format recognizable by the [UCSC Genome Browser](http://genome.ucsc.edu). They are intended to make it easier for researchers to view tracks aligned to unsupported or uncommon genomes.
 
