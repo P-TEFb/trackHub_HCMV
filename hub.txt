@@ -1,5 +1,5 @@
 hub HCMV
-shortLabel FJ616285.1
+shortLabel HCMV Datasets
 longLabel A selection of new and existing HCMV datasets aligned to FJ616285.1
 genomesFile genomes.txt
 email david-price@uiowa.edu
