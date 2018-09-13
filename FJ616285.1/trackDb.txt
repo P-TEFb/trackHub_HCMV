@@ -100,64 +100,6 @@ maxHeightPixels 128:128:16
 
 ###
 
-track Fw-ROPE
-superTrack on show
-group analyses
-priority 3
-shortLabel Fw ROPE
-longLabel Fw strand regions of productive elongation 
-
-track Towne-Fw
-parent Fw-ROPE
-type bed
-visibility dense
-itemRgb on
-priority 3.1
-bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/PRODUCTIVE_ELONGATION_PROSEQ_AVGNORM_COV_FW_DMSO_FLAVO_4DAY_HCMV_WHOLEGENOMECOLORCODED_SIZE.bed
-longLabel FW strand regions of productive elongation in Towne
-shortLabel FW Towne ROPE
-
-track Towne-BAC-Fw
-parent Fw-ROPE
-type bed
-visibility dense
-itemRgb on
-priority 3.2
-bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/PRODUCTIVE_ELONGATION_PROSEQ_AVGNORM_COV_FW_DMSO_FLAVO_4DAY_cmvWT_Ctrl_alignToCMV_2018_02_28_HCMV_WHOLEGENOMECOLORCODED_SIZE.bed
-longLabel Fw strand regions of productive elongation in Towne BAC
-shortLabel Fw Towne BAC ROPE
-
-###
-
-track Rv-ROPE
-superTrack on show
-group analyses
-priority 3
-shortLabel Rv ROPE
-longLabel Rv strand regions of productive elongation
-
-track Towne-Rv
-parent Rv-ROPE
-type bed
-visibility dense
-itemRgb on
-priority 3.3
-bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/PRODUCTIVE_ELONGATION_PROSEQ_AVGNORM_COV_RV_DMSO_FLAVO_4DAY_HCMV_WHOLEGENOMECOLORCODED_SIZE.bed
-longLabel Rv strand regions of productive elongation in Towne
-shortLabel Rv Towne ROPE
-
-track Towne-BAC-Rv
-parent Rv-ROPE
-type bed
-visibility dense
-itemRgb on
-priority 3.4
-bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/PRODUCTIVE_ELONGATION_PROSEQ_AVGNORM_COV_RV_DMSO_FLAVO_4DAY_cmvWT_Ctrl_alignToCMV_2018_02_28_HCMV_WHOLEGENOMECOLORCODED_SIZE.bed
-longLabel Rv strand regions of productive elongation in Towne BAC
-shortLabel Rv Towne BAC ROPE
-
-###
-
 track PRO-Seq-DMSO-96h-Towne
 compositeTrack on 
 type bigWig 0 1000
