@@ -123,7 +123,7 @@ type bigBed 9 .
 visibility dense
 itemRgb on
 priority 3.2
-bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/ROPE-Towne-Bac-FW.bb
+bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/ROPE-Towne-BAC-FW.bb
 longLabel Fw strand regions of productive elongation in Towne BAC
 shortLabel Fw Towne BAC ROPE
 
