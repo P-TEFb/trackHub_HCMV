@@ -1,24 +1,19 @@
-name map
-label Mapping and Annotation
+name proseq-procap
+label PRO-Seq and PRO-Cap Datasets
 priority 1
 defaultIsClosed 0
 
-name proseq-procap
-label PRO-Seq and PRO-Cap Datasets
+name map
+label Mapping and Annotation
 priority 2
-defaultIsClosed 0
-
-name analyses
-label Analyses of PRO-Cap Data
-priority 3
 defaultIsClosed 0
 
 name GSE41605
 label GSE41605: HCMV Ribosome Profiling and ORFs (2012)
-priority 4
+priority 3
 defaultIsClosed 0
 
 name PRJEB15199
 label PRJEB15199: HCMV Paired-End mRNA-Seq (2016)
-priority 5
+priority 4
 defaultIsClosed 0
