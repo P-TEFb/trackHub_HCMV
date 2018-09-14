@@ -102,7 +102,7 @@ maxHeightPixels 128:128:16
 
 track Fw-ROPE
 superTrack on show
-group analyses
+group proseq-procap
 priority 3
 shortLabel Fw ROPE
 longLabel Fw strand regions of productive elongation 
@@ -131,7 +131,7 @@ shortLabel Fw Towne BAC ROPE
 
 track Rv-ROPE
 superTrack on show
-group analyses
+group proseq-procap
 priority 3
 shortLabel Rv ROPE
 longLabel Rv strand regions of productive elongation
@@ -200,7 +200,7 @@ maxHeightPixels 128:128:16
 track PRO-Seq-DMSO-96h-Towne-BAC
 compositeTrack on
 type bigWig 0 1000
-group notPublic
+group proseq-procap
 priority 4.2
 visibility full
 shortLabel PRO-Seq DMSO 96h Towne BAC
@@ -279,7 +279,7 @@ maxHeightPixels 128:128:16
 track PRO-Seq-Flavo-96h-Towne-BAC
 compositeTrack on
 type bigWig 0 1000
-group notPublic
+group proseq-procap
 priority 5.2
 visibility full
 shortLabel PRO-Seq Flavo 96h Towne BAC
@@ -395,7 +395,7 @@ maxHeightPixels 128:128:16
 
 track TATW-DMSO-96h-Towne
 superTrack on show
-group analyses
+group proseq-procap
 priority 8
 shortLabel DMSO Upstream TATW
 longLabel DMSO TSS with TATA (black) or TATT (red) starting at -34 to -30 upstream
@@ -424,7 +424,7 @@ shortLabel RV DMSO Upstream TATW
 
 track TATW-Flavo-96h-Towne
 superTrack on show
-group analyses
+group proseq-procap
 priority 9
 shortLabel Flavo Upstream TATW
 longLabel Flavopiridol TSS with TATA (black) or TATT (red) starting at -34 to -30 upstream
