@@ -100,6 +100,64 @@ maxHeightPixels 128:128:16
 
 ###
 
+track Fw-ROPE
+superTrack on show
+group analyses
+priority 3
+shortLabel Fw ROPE
+longLabel Fw strand regions of productive elongation 
+
+track Towne-Fw
+parent Fw-ROPE
+type bigBed 9 .
+visibility dense
+itemRgb on
+priority 3.1
+bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/ROPE-Towne-FW.bb
+longLabel FW strand regions of productive elongation in Towne
+shortLabel FW Towne ROPE
+
+track Towne-BAC-Fw
+parent Fw-ROPE
+type bigBed 9 .
+visibility dense
+itemRgb on
+priority 3.2
+bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/ROPE-Towne-Bac-FW.bb
+longLabel Fw strand regions of productive elongation in Towne BAC
+shortLabel Fw Towne BAC ROPE
+
+###
+
+track Rv-ROPE
+superTrack on show
+group analyses
+priority 3
+shortLabel Rv ROPE
+longLabel Rv strand regions of productive elongation
+
+track Towne-Rv
+parent Rv-ROPE
+type bigBed 9 .
+visibility dense
+itemRgb on
+priority 3.3
+bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/ROPE-Towne-RV.bb
+longLabel Rv strand regions of productive elongation in Towne
+shortLabel Rv Towne ROPE
+
+track Towne-BAC-Rv
+parent Rv-ROPE
+type bigBed 9 .
+visibility dense
+itemRgb on
+priority 3.4
+bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/ROPE-Towne-BAC-RV.bb
+longLabel Rv strand regions of productive elongation in Towne BAC
+shortLabel Rv Towne BAC ROPE
+
+###
+
 track PRO-Seq-DMSO-96h-Towne
 compositeTrack on 
 type bigWig 0 1000
