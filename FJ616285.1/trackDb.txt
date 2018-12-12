@@ -1,5 +1,5 @@
 ###########################################################
-# PRO-Seq and PRO-Cap Datasets, ROPE analyses, TATW tracks
+# ROPE analyses, PRO-Seq and PRO-Cap Datasets, TATW tracks
 ###########################################################
 # 1: ROPE TSR analyses
 #	1.1: Towne Control FW TSR
