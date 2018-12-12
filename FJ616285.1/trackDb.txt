@@ -27,7 +27,7 @@
 ##################################################
 ###
 
-track TSR ROPE 
+track TSR-ROPE 
 superTrack on show
 group proseq-procap
 priority 1
@@ -35,7 +35,7 @@ shortLabel TSR ROPE
 longLabel Transcription Start Region and Regions of Productive Elongation 
 
 track Towne-Control-FW-TSR
-parent TSR ROPE
+parent TSR-ROPE
 type bigBed 6 .
 visibility dense
 itemRgb on
@@ -45,7 +45,7 @@ longLabel FW strand transciption start regions in Towne Control
 shortLabel Control FW TSRs
 
 track Towne-Flavo-FW-TSR
-parent TSR ROPE
+parent TSR-ROPE
 type bigBed 6 .
 visibility dense
 itemRgb on
@@ -55,7 +55,7 @@ longLabel FW strand transciption start regions in Towne Flavo
 shortLabel Flavo FW TSRs
 
 track Towne-Control-RV-TSR
-parent TSR ROPE
+parent TSR-ROPE
 type bigBed 6 .
 visibility dense
 itemRgb on
@@ -65,7 +65,7 @@ longLabel RV strand transciption start regions in Towne Control
 shortLabel Control RV TSRs
 
 track Towne-Flavo-RV-TSR
-parent TSR ROPE
+parent TSR-ROPE
 type bigBed 6 .
 visibility dense
 itemRgb on
@@ -75,7 +75,7 @@ longLabel RV strand transciption start regions in Towne Flavo
 shortLabel Flavo RV TSRs
 
 track Towne-FW
-parent TSR ROPE
+parent TSR-ROPE
 type bigBed 9 .
 visibility dense
 itemRgb on
@@ -85,7 +85,7 @@ longLabel FW strand regions of productive elongation in Towne
 shortLabel FW Towne ROPE
 
 track Towne-BAC-FW
-parent TSR ROPE
+parent TSR-ROPE
 type bigBed 9 .
 visibility dense
 itemRgb on
@@ -95,7 +95,7 @@ longLabel FW strand regions of productive elongation in Towne BAC
 shortLabel FW Towne BAC ROPE
 
 track Towne-RV
-parent TSR ROPE
+parent TSR-ROPE
 type bigBed 9 .
 visibility dense
 itemRgb on
@@ -105,7 +105,7 @@ longLabel RV strand regions of productive elongation in Towne
 shortLabel RV Towne ROPE
 
 track Towne-BAC-RV
-parent TSR ROPE
+parent TSR-ROPE
 type bigBed 9 .
 visibility dense
 itemRgb on
@@ -114,11 +114,13 @@ bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ61628
 longLabel RV strand regions of productive elongation in Towne BAC
 shortLabel RV Towne BAC ROPE
 
+###
+
 track PRO-Seq-DMSO-4h-TB40E
 compositeTrack on hide
 type bigWig 0 1000
 group proseq-procap
-priority 1
+priority 2
 visibility full
 shortLabel PRO-Seq DMSO 4h TB40/E
 longLabel PRO-Seq in DMSO-treated HFF infected 4 hours with HCMV strain TB40/E
@@ -157,7 +159,7 @@ track PRO-Seq-Flavo-4h-TB40E
 compositeTrack on hide
 type bigWig 0 1000
 group proseq-procap
-priority 2
+priority 3
 visibility full
 shortLabel PRO-Seq Flavo 4h TB40/E
 longLabel PRO-Seq in flavopiridol-treated HFF infected 4 hours with HCMV strain TB40/E
