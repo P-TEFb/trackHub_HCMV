@@ -6,7 +6,7 @@
 # 3: ROPE TSR analyses
 #	3.1: Towne Fw
 #	3.2: Towne BAC Fw
-#	3.3: Towne BAC Fw
+#	3.3: Towne Control FW TSR
 #	3.5: Towne Rv
 #	3.6: Towne BAC Rv
 # 4: 96 h Towne DMSO PRO-Seq
