@@ -20,11 +20,11 @@
 # 9: Flavo TSS w/ TATW upstream [-34,-30]
 # 10: 5' 96 h Towne DMSO PRO-Cap
 # 11: 5' 96 h Towne Flavo PRO-Cap
-# 12: TSR analyses
-#	12.1: Towne Fw Control
-#	12.2: Towne Fw Flavo
-#	12.3: Towne Rv Control
-#	12.4: Towne Rv Flavo
+# 12: TSR analyses 
+#	12.1: Towne Fw Control TSR
+#	12.2: Towne Fw Flavo TSR
+#	12.3: Towne Rv Control TSR
+#	12.4: Towne Rv Flavo TSR
 ##################################################
 
 track PRO-Seq-DMSO-4h-TB40E
