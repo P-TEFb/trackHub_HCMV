@@ -130,7 +130,7 @@ shortLabel Fw Towne BAC ROPE
 
 track Towne-Control-FW-TSR
 parent Fw-ROPE
-type bigBed 9 .
+type bigBed 6 .
 visibility dense
 itemRgb on
 priority 3.3
