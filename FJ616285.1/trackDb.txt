@@ -128,7 +128,7 @@ bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ61628
 longLabel Fw strand regions of productive elongation in Towne BAC
 shortLabel Fw Towne BAC ROPE
 
-track Control-Fw
+track 4day-DMSO-Towne-PRO-Cap-FW_TSR
 parent Fw-ROPE
 type bigBed 9 .
 visibility dense
