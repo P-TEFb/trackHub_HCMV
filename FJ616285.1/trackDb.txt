@@ -10,6 +10,8 @@
 #	3.4: Towne Flavo FW TSR
 #	3.5: Towne Rv
 #	3.6: Towne BAC Rv
+#	3.7: Towne Control RV TSR
+#	3.8: Towne Flavo RV TSR
 # 4: 96 h Towne DMSO PRO-Seq
 # 	4.1: Towne Control
 #	4.2: Towne BAC Control
