@@ -1,17 +1,17 @@
 ###########################################################
 # PRO-Seq and PRO-Cap Datasets, ROPE analyses, TATW tracks
 ###########################################################
-# 1: 4 h TB40/E DMSO PRO-Seq
-# 2: 4 h TB40/E Flavo PRO-Seq
-# 3: ROPE TSR analyses
-#	3.1: Towne Fw
-#	3.2: Towne BAC Fw
-#	3.3: Towne Control FW TSR
-#	3.4: Towne Flavo FW TSR
-#	3.5: Towne Rv
-#	3.6: Towne BAC Rv
-#	3.7: Towne Control RV TSR
-#	3.8: Towne Flavo RV TSR
+# 1: ROPE TSR analyses
+#	1.1: Towne Control FW TSR
+#	1.2: Towne Flavo FW TSR
+#	1.3: Towne Control RV TSR
+#	1.4: Towne Flavo RV TSR
+#	1.5: Towne FW
+#	1.6: Towne BAC FW
+#	1.7: Towne RV
+#	1.8: Towne BAC RV
+# 2: 4 h TB40/E DMSO PRO-Seq
+# 3: 4 h TB40/E Flavo PRO-Seq
 # 4: 96 h Towne DMSO PRO-Seq
 # 	4.1: Towne Control
 #	4.2: Towne BAC Control
@@ -25,6 +25,94 @@
 # 10: 5' 96 h Towne DMSO PRO-Cap
 # 11: 5' 96 h Towne Flavo PRO-Cap
 ##################################################
+###
+
+track TSR ROPE 
+superTrack on show
+group proseq-procap
+priority 1
+shortLabel TSR ROPE
+longLabel Transcription Start Region and Regions of Productive Elongation 
+
+track Towne-Control-FW-TSR
+parent TSR ROPE
+type bigBed 6 .
+visibility dense
+itemRgb on
+priority 1.1
+bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/Towne-Control-FW-TSR.bb
+longLabel FW strand transciption start regions in Towne Control
+shortLabel Control FW TSRs
+
+track Towne-Flavo-FW-TSR
+parent TSR ROPE
+type bigBed 6 .
+visibility dense
+itemRgb on
+priority 1.2
+bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/Towne-Flavo-FW-TSR.bb
+longLabel FW strand transciption start regions in Towne Flavo
+shortLabel Flavo FW TSRs
+
+track Towne-Control-RV-TSR
+parent TSR ROPE
+type bigBed 6 .
+visibility dense
+itemRgb on
+priority 1.3
+bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/Towne-Control-RV-TSR.bb
+longLabel RV strand transciption start regions in Towne Control
+shortLabel Control RV TSRs
+
+track Towne-Flavo-RV-TSR
+parent TSR ROPE
+type bigBed 6 .
+visibility dense
+itemRgb on
+priority 1.4
+bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/Towne-Flavo-RV-TSR.bb
+longLabel RV strand transciption start regions in Towne Flavo
+shortLabel Flavo RV TSRs
+
+track Towne-FW
+parent TSR ROPE
+type bigBed 9 .
+visibility dense
+itemRgb on
+priority 1.5
+bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/ROPE-Towne-FW.bb
+longLabel FW strand regions of productive elongation in Towne
+shortLabel FW Towne ROPE
+
+track Towne-BAC-FW
+parent TSR ROPE
+type bigBed 9 .
+visibility dense
+itemRgb on
+priority 1.6
+bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/ROPE-Towne-BAC-FW.bb
+longLabel FW strand regions of productive elongation in Towne BAC
+shortLabel FW Towne BAC ROPE
+
+track Towne-RV
+parent TSR ROPE
+type bigBed 9 .
+visibility dense
+itemRgb on
+priority 1.7
+bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/ROPE-Towne-RV.bb
+longLabel RV strand regions of productive elongation in Towne
+shortLabel RV Towne ROPE
+
+track Towne-BAC-RV
+parent TSR ROPE
+type bigBed 9 .
+visibility dense
+itemRgb on
+priority 1.8
+bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/ROPE-Towne-BAC-RV.bb
+longLabel RV strand regions of productive elongation in Towne BAC
+shortLabel RV Towne BAC ROPE
 
 track PRO-Seq-DMSO-4h-TB40E
 compositeTrack on hide
@@ -101,104 +189,6 @@ altColor 255,0,0
 alwaysZero on
 autoScale on
 maxHeightPixels 128:128:16
-
-###
-
-track Fw-ROPE
-superTrack on show
-group proseq-procap
-priority 3
-shortLabel Fw ROPE
-longLabel Fw strand regions of productive elongation 
-
-track Towne-Fw
-parent Fw-ROPE
-type bigBed 9 .
-visibility dense
-itemRgb on
-priority 3.1
-bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/ROPE-Towne-FW.bb
-longLabel FW strand regions of productive elongation in Towne
-shortLabel FW Towne ROPE
-
-track Towne-BAC-Fw
-parent Fw-ROPE
-type bigBed 9 .
-visibility dense
-itemRgb on
-priority 3.2
-bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/ROPE-Towne-BAC-FW.bb
-longLabel FW strand regions of productive elongation in Towne BAC
-shortLabel FW Towne BAC ROPE
-
-track Towne-Control-FW-TSR
-parent Fw-ROPE
-type bigBed 6 .
-visibility dense
-itemRgb on
-priority 3.3
-bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/Towne-Control-FW-TSR.bb
-longLabel FW strand transciption start regions in Towne Control
-shortLabel Control FW TSRs
-
-track Towne-Flavo-FW-TSR
-parent Fw-ROPE
-type bigBed 6 .
-visibility dense
-itemRgb on
-priority 3.4
-bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/Towne-Flavo-FW-TSR.bb
-longLabel FW strand transciption start regions in Towne Flavo
-shortLabel Flavo FW TSRs
-
-###
-
-track Rv-ROPE
-superTrack on show
-group proseq-procap
-priority 3
-shortLabel Rv ROPE
-longLabel Rv strand regions of productive elongation
-
-track Towne-Rv
-parent Rv-ROPE
-type bigBed 9 .
-visibility dense
-itemRgb on
-priority 3.5
-bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/ROPE-Towne-RV.bb
-longLabel RV strand regions of productive elongation in Towne
-shortLabel RV Towne ROPE
-
-track Towne-BAC-Rv
-parent Rv-ROPE
-type bigBed 9 .
-visibility dense
-itemRgb on
-priority 3.6
-bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/ROPE-Towne-BAC-RV.bb
-longLabel RV strand regions of productive elongation in Towne BAC
-shortLabel RV Towne BAC ROPE
-
-track Towne-Control-RV-TSR
-parent Rv-ROPE
-type bigBed 6 .
-visibility dense
-itemRgb on
-priority 3.7
-bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/Towne-Control-RV-TSR.bb
-longLabel RV strand transciption start regions in Towne Control
-shortLabel Control RV TSRs
-
-track Towne-Flavo-RV-TSR
-parent Rv-ROPE
-type bigBed 6 .
-visibility dense
-itemRgb on
-priority 3.8
-bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/Towne-Flavo-RV-TSR.bb
-longLabel RV strand transciption start regions in Towne Flavo
-shortLabel Flavo RV TSRs
 
 ###
 
