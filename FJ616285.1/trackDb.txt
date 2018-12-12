@@ -6,12 +6,8 @@
 # 3: ROPE TSR analyses
 #	3.1: Towne Fw
 #	3.2: Towne BAC Fw
-#	3.3: Contorl TSR Fw
-#	3.4: Flavo TSR Fw
 #	3.5: Towne Rv
 #	3.6: Towne BAC Rv
-#	3.7: Control TSR Rv
-#	3.8: Flavo TSR Rv
 # 4: 96 h Towne DMSO PRO-Seq
 # 	4.1: Towne Control
 #	4.2: Towne BAC Control
@@ -131,26 +127,6 @@ bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ61628
 longLabel Fw strand regions of productive elongation in Towne BAC
 shortLabel Fw Towne BAC ROPE
 
-track 4day-DMSO-Towne-PRO-Cap-FW_TSR
-parent Fw-ROPE
-type bigBed 9 .
-visibility dense
-itemRgb on
-priority 3.3
-bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/4day-DMSO-Towne-PRO-Cap-FW_TSR.bb
-longLabel FW strand transciption start regions in Towne Control
-shortLabel Control FW TSRs
-
-track 4day-Flavo-Towne-PRO-Cap-FW_TSR
-parent Fw-ROPE
-type bigBed 9 .
-visibility dense
-itemRgb on
-priority 3.4
-bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/4day-Flavo-Towne-PRO-Cap-FW_TSR.bb
-longLabel FW strand transciption start regions in Towne Flavo
-shortLabel Flavo FW TSRs
-
 ###
 
 track Rv-ROPE
@@ -179,26 +155,6 @@ priority 3.6
 bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/ROPE-Towne-BAC-RV.bb
 longLabel Rv strand regions of productive elongation in Towne BAC
 shortLabel Rv Towne BAC ROPE
-
-track 4day-DMSO-Towne-PRO-Cap-RV_TSR
-parent Rv-ROPE
-type bigBed 9 .
-visibility dense
-itemRgb on
-priority 3.7
-bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/4day-DMSO-Towne-PRO-Cap-RV_TSR.bb
-longLabel Rv strand transciption start regions in Towne Control
-shortLabel Control Rv TSRs
-
-track 4day-Flavo-Towne-PRO-Cap-RV_TSR
-parent Rv-ROPE
-type bigBed 9 .
-visibility dense
-itemRgb on
-priority 3.8
-bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/4day-Flavo-Towne-PRO-Cap-RV_TSR.bb
-longLabel Rv strand transciption start regions in Towne Flavo
-shortLabel Flavo Rv TSRs
 
 ###
 
