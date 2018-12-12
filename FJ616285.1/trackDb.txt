@@ -7,7 +7,8 @@
 #	3.1: Towne Fw
 #	3.2: Towne BAC Fw
 #	3.3: Towne Rv
-#	3.4: Towne BAC Rv 
+#	3.4: Towne BAC Rv
+# 3.5: Control Fw TSRs
 # 4: 96 h Towne DMSO PRO-Seq
 # 	4.1: Towne Control
 #	4.2: Towne BAC Control
@@ -126,6 +127,16 @@ priority 3.2
 bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/ROPE-Towne-BAC-FW.bb
 longLabel Fw strand regions of productive elongation in Towne BAC
 shortLabel Fw Towne BAC ROPE
+
+track Control-Fw
+parent Fw-ROPE
+type bigBed 9 .
+visibility dense
+itemRgb on
+priority 3.5
+bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/4day-DMSO-Towne-PRO-Cap-FW_TSR.bb
+longLabel FW strand transciption start regions in Towne Control
+shortLabel Control FW TSRs
 
 ###
 
