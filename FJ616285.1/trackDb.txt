@@ -1,5 +1,5 @@
 ###########################################################
-# PRO-Seq and PRO-Cap Datasets, ROPE analyses, TATW tracks
+# PRO-Seq and PRO-Cap Datasets, ROPE analyses, TATW tracks, TSR analyses
 ###########################################################
 # 1: 4 h TB40/E DMSO PRO-Seq
 # 2: 4 h TB40/E Flavo PRO-Seq
