@@ -139,7 +139,7 @@ itemRgb on
 priority 3.3
 bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/Towne-Control-FW-TSR.bb
 longLabel Fw strand transciption start regions in Towne Control
-shortLabel Control Fw TSR
+shortLabel Control Fw TSRs
 
 track Towne-Flavo-FW-TSR
 parent Fw-ROPE
@@ -149,7 +149,7 @@ itemRgb on
 priority 3.4
 bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/Towne-Flavo-FW-TSR.bb
 longLabel Fw strand transciption start regions in Towne Flavo
-shortLabel Flavo Fw TSR
+shortLabel Flavo Fw TSRs
 
 ###
 
@@ -188,7 +188,7 @@ itemRgb on
 priority 3.7
 bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/Towne-Control-RV-TSR.bb
 longLabel Rv strand transciption start regions in Towne Control
-shortLabel Control Rv TSR
+shortLabel Control Rv TSRs
 
 track Towne-Flavo-RV-TSR
 parent Rv-ROPE
@@ -198,7 +198,7 @@ itemRgb on
 priority 3.8
 bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/Towne-Flavo-RV-TSR.bb
 longLabel Rv strand transciption start regions in Towne Flavo
-shortLabel Flavo Rv TSR
+shortLabel Flavo Rv TSRs
 
 ###
 
