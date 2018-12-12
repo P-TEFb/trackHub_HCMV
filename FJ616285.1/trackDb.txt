@@ -8,7 +8,7 @@
 #	3.2: Towne BAC Fw
 #	3.3: Towne Rv
 #	3.4: Towne BAC Rv
-# 3.5: Control Fw TSRs
+#	3.5: Control Fw TSRs
 # 4: 96 h Towne DMSO PRO-Seq
 # 	4.1: Towne Control
 #	4.2: Towne BAC Control
