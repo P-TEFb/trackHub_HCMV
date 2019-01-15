@@ -443,7 +443,7 @@ itemRgb on
 priority 8.1
 bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/TATA_Towne_DMSO_FW.bb
 longLabel FW strand DMSO TSS with TATA (black) starting at -36 to -30 upstream
-shortLabel FW DMSO Upstream TATA
+shortLabel Control Fw TATA
 
 track TATA-DMSO-96h-Towne-RV
 parent TATW-DMSO-96h-Towne
@@ -453,7 +453,7 @@ itemRgb on
 priority 8.2
 bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/TATA_Towne_DMSO_RV.bb
 longLabel RV strand DMSO TSS with TATA (black) starting at -36 to -30 upstream
-shortLabel RV DMSO Upstream TATA
+shortLabel Control Rv TATA
 
 track TATT-DMSO-96h-Towne-FW
 parent TATW-DMSO-96h-Towne
@@ -463,7 +463,7 @@ itemRgb on
 priority 8.3
 bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/TATT_Towne_DMSO_FW.bb
 longLabel FW strand DMSO TSS with TATT (red) starting at -36 to -30 upstream
-shortLabel FW DMSO Upstream TATT
+shortLabel Control Fw TATT
 
 track TATT-DMSO-96h-Towne-RV
 parent TATW-DMSO-96h-Towne
@@ -473,7 +473,7 @@ itemRgb on
 priority 8.4
 bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/TATT_Towne_DMSO_RV.bb
 longLabel RV strand DMSO TSS with TATT (red) starting at -36 to -30 upstream
-shortLabel RV DMSO Upstream TATT
+shortLabel Control Rv TATT
 
 ###
 
@@ -492,7 +492,7 @@ itemRgb on
 priority 9.1
 bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/TATA_Towne_Flavo_FW.bb
 longLabel FW strand flavopiridol TSS with TATA (black) starting at -36 to -30 upstream
-shortLabel FW Flavo Upstream TATA
+shortLabel Flavo Fw TATA
 
 track TATA-Flavo-96h-Towne-RV
 parent TATW-Flavo-96h-Towne
@@ -502,7 +502,7 @@ itemRgb on
 priority 9.2
 bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/TATA_Towne_Flavo_RV.bb
 longLabel RV strand flavopiridol TSS with TATA (black) starting at -36 to -30 upstream
-shortLabel RV Flavo Upstream TATA
+shortLabel Flavo Rv TATA
 
 track TATT-Flavo-96h-Towne-FW
 parent TATW-Flavo-96h-Towne
@@ -512,7 +512,7 @@ itemRgb on
 priority 9.3
 bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/TATT_Towne_Flavo_FW.bb
 longLabel FW strand flavopiridol TSS with TATT (red) starting at -36 to -30 upstream
-shortLabel FW Flavo Upstream TATT
+shortLabel Flavo Fw TATT
 
 track TATT-Flavo-96h-Towne-RV
 parent TATW-Flavo-96h-Towne
@@ -522,7 +522,7 @@ itemRgb on
 priority 9.4
 bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/TATT_Towne_Flavo_RV.bb
 longLabel RV strand flavopiridol TSS with TATT (red) starting at -36 to -30 upstream
-shortLabel RV Flavo Upstream TATT
+shortLabel Flavo Rv TATT
 
 ###
 
