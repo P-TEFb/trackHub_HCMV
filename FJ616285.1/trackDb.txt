@@ -82,7 +82,7 @@ itemRgb on
 priority 1.5
 bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/ROPE-Towne-FW.bb
 longLabel FW strand regions of productive elongation in Towne
-shortLabel Towne Fw
+shortLabel Towne Fw ROPE
 
 track Towne-BAC-FW
 parent TSR-ROPE
@@ -92,7 +92,7 @@ itemRgb on
 priority 1.6
 bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/ROPE-Towne-BAC-FW.bb
 longLabel FW strand regions of productive elongation in Towne BAC
-shortLabel Towne BAC Fw
+shortLabel Towne BAC Fw ROPE
 
 track Towne-RV
 parent TSR-ROPE
@@ -102,7 +102,7 @@ itemRgb on
 priority 1.7
 bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/ROPE-Towne-RV.bb
 longLabel RV strand regions of productive elongation in Towne
-shortLabel Towne Rv
+shortLabel Towne Rv ROPE
 
 track Towne-BAC-RV
 parent TSR-ROPE
@@ -112,7 +112,7 @@ itemRgb on
 priority 1.8
 bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/ROPE-Towne-BAC-RV.bb
 longLabel RV strand regions of productive elongation in Towne BAC
-shortLabel Towne BAC Rv
+shortLabel Towne BAC Rv ROPE
 
 ###
 
