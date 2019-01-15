@@ -42,7 +42,7 @@ itemRgb on
 priority 1.1
 bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/Towne-Control-FW-TSR.bb
 longLabel FW strand transciption start regions in Towne Control
-shortLabel Control Fw TSRs
+shortLabel Towne Control Fw TSRs
 
 track Towne-Flavo-FW-TSR
 parent TSR-ROPE
@@ -52,7 +52,7 @@ itemRgb on
 priority 1.2
 bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/Towne-Flavo-FW-TSR.bb
 longLabel FW strand transciption start regions in Towne Flavo
-shortLabel Flavo Fw TSRs
+shortLabel Towne Flavo Fw TSRs
 
 track Towne-Control-RV-TSR
 parent TSR-ROPE
@@ -62,7 +62,7 @@ itemRgb on
 priority 1.3
 bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/Towne-Control-RV-TSR.bb
 longLabel RV strand transciption start regions in Towne Control
-shortLabel Control Rv TSRs
+shortLabel Towne Control Rv TSRs
 
 track Towne-Flavo-RV-TSR
 parent TSR-ROPE
@@ -72,7 +72,7 @@ itemRgb on
 priority 1.4
 bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/Towne-Flavo-RV-TSR.bb
 longLabel RV strand transciption start regions in Towne Flavo
-shortLabel Flavo Rv TSRs
+shortLabel Towne Flavo Rv TSRs
 
 track Towne-FW
 parent TSR-ROPE
@@ -443,7 +443,7 @@ itemRgb on
 priority 8.1
 bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/TATA_Towne_DMSO_FW.bb
 longLabel FW strand DMSO TSS with TATA (black) starting at -36 to -30 upstream
-shortLabel Control Fw TATA
+shortLabel Towne Control Fw TATA
 
 track TATA-DMSO-96h-Towne-RV
 parent TATW-DMSO-96h-Towne
@@ -453,7 +453,7 @@ itemRgb on
 priority 8.2
 bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/TATA_Towne_DMSO_RV.bb
 longLabel RV strand DMSO TSS with TATA (black) starting at -36 to -30 upstream
-shortLabel Control Rv TATA
+shortLabel Towne Control Rv TATA
 
 track TATT-DMSO-96h-Towne-FW
 parent TATW-DMSO-96h-Towne
@@ -463,7 +463,7 @@ itemRgb on
 priority 8.3
 bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/TATT_Towne_DMSO_FW.bb
 longLabel FW strand DMSO TSS with TATT (red) starting at -36 to -30 upstream
-shortLabel Control Fw TATT
+shortLabel Towne Control Fw TATT
 
 track TATT-DMSO-96h-Towne-RV
 parent TATW-DMSO-96h-Towne
@@ -473,7 +473,7 @@ itemRgb on
 priority 8.4
 bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/TATT_Towne_DMSO_RV.bb
 longLabel RV strand DMSO TSS with TATT (red) starting at -36 to -30 upstream
-shortLabel Control Rv TATT
+shortLabel Towne Control Rv TATT
 
 ###
 
@@ -492,7 +492,7 @@ itemRgb on
 priority 9.1
 bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/TATA_Towne_Flavo_FW.bb
 longLabel FW strand flavopiridol TSS with TATA (black) starting at -36 to -30 upstream
-shortLabel Flavo Fw TATA
+shortLabel Towne Flavo Fw TATA
 
 track TATA-Flavo-96h-Towne-RV
 parent TATW-Flavo-96h-Towne
@@ -502,7 +502,7 @@ itemRgb on
 priority 9.2
 bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/TATA_Towne_Flavo_RV.bb
 longLabel RV strand flavopiridol TSS with TATA (black) starting at -36 to -30 upstream
-shortLabel Flavo Rv TATA
+shortLabel Towne Flavo Rv TATA
 
 track TATT-Flavo-96h-Towne-FW
 parent TATW-Flavo-96h-Towne
@@ -512,7 +512,7 @@ itemRgb on
 priority 9.3
 bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/TATT_Towne_Flavo_FW.bb
 longLabel FW strand flavopiridol TSS with TATT (red) starting at -36 to -30 upstream
-shortLabel Flavo Fw TATT
+shortLabel Towne Flavo Fw TATT
 
 track TATT-Flavo-96h-Towne-RV
 parent TATW-Flavo-96h-Towne
@@ -522,7 +522,7 @@ itemRgb on
 priority 9.4
 bigDataUrl https://raw.githubusercontent.com/P-TEFb/trackHub_HCMV/master/FJ616285.1/analyses/TATT_Towne_Flavo_RV.bb
 longLabel RV strand flavopiridol TSS with TATT (red) starting at -36 to -30 upstream
-shortLabel Flavo Rv TATT
+shortLabel Towne Flavo Rv TATT
 
 ###
 
