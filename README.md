@@ -25,8 +25,6 @@ This track hub was compiled by [Kyle Nilson](https://github.com/kylenilson) in t
 
 This track hub contains PRO-Seq and PRO-Cap datasets first described in the following manuscript:
 
-**Nucleotide Resolution Comparison of Transcription of Human Cytomegalovirus and Host Genomes Reveals Universal Use of RNA Polymerase II Elongation Control Driven by Dissimilar Core Promoter Elements.**  
-Mrutyunjaya Parida, Kyle A. Nilson, Ming Li, Christopher B. Ball, Harrison A. Fuchs, Christine K. Lawson, Donal S. Luse, Jeffery L. Meier, and David H. Price.  
-*mBio* 2019 Feb 12;10(1). `PMID: 30755505` DOI: [10.1128/mBio.02047-18](https://doi.org/10.1128/mBio.02047-18)  
+**Nucleotide Resolution Comparison of Transcription of Human Cytomegalovirus and Host Genomes Reveals Universal Use of RNA Polymerase II Elongation Control Driven by Dissimilar Core Promoter Elements.** Mrutyunjaya Parida, Kyle A. Nilson, Ming Li, Christopher B. Ball, Harrison A. Fuchs, Christine K. Lawson, Donal S. Luse, Jeffery L. Meier, and David H. Price. *mBio* 2019 Feb 12;10(1). `PMID: 30755505` DOI: [10.1128/mBio.02047-18](https://doi.org/10.1128/mBio.02047-18)  
 
 This track hub also contains datasets generated and described by Stern-Ginossar N, et al. in their [2012 *Science* manuscript](http://dx.doi.org/10.1126/science.1227919) `PMID: 23180859`, and Van Damme E, et al. in their [2016 *PLoS One* manuscript](http://dx.doi.org/10.1371/journal.pone.0164843) `PMID: 27760232`. Raw datasets were downloaded from `GEO: GSE41605` or `ENA: PRJEB15199` and manipulated by [Kyle Nilson](https://github.com/kylenilson).
